@@ -1,0 +1,46 @@
+.header{
+   background: #F6F9FC;
+   height: 300px;  
+}
+
+.header__logo{
+
+}
+.header__wrap{
+   display: flex;
+}
+
+.first-header-block{
+   display: flex;
+   flex-direction: column;
+}
+
+.logotype-block{
+   display: flex;
+}
+
+.singin-block{
+   margin-left: auto;
+}
+
+.third-block{
+   display: flex;
+   position: absolute;
+   height: 150px;
+   right: 0;
+   top: 165px;
+   width: calc(100% / 2);
+}
+.third-block__body{
+   background-color: #E2EBF5;
+   width: 100%;
+}
+.third-block__border{
+   border-left: 30px solid transparent;
+   border-bottom: 150px solid #E2EBF5;
+   vertical-align: top;
+}
+.third-block__search-button{
+   background-image: url('../images/magnifier.svg');
+   background-repeat: no-repeat;
+}
