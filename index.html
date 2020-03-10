@@ -6,42 +6,294 @@
 <link href="./css/style.css" rel="stylesheet">
 </head><body><header class="header">
 <div class="header__wrap">
-<a href="#" class="header__logo"><img src="./images/menu.svg" alt="Компания b2bCorp"></a>
+<a href="#" class="header__menu"></a>
 <div class="first-header-block">
-<span>Ваш город: <a href="#">Красноярск</a></span>
+<span class="city-select">Ваш город: <a href="#" class="city-select__url">Красноярск</a></span>
 <div class="logotype-block">
-<a href="#"><img src="./images/b2bcorp.svg" alt=""></a>
-<span>Автоматизированный сервис продаж юридическим лицам</span>
+<a href="#"  class="header__logo"><img src="./images/b2bcorp.svg" alt=""></a>
+<span class="header_slogan">Автоматизированный сервис продаж юридическим лицам</span>
 </div>
 <div class="catalog-button-block">
-<button>Каталог товаров</button>
+<a href="#" class="catalog-button">Каталог товаров</a>
 </div>
 </div>
 <div class="second-header-block">
 <div class="address-block">
+<div class="address-image">
 <img src="./images/shelfs.svg" alt="">
-<span>Пункт выдачи:</span>
-<p>г. Красноярск, ул. Новосибирская, 42</p>
+</div>
+<div class="address-text">
+<span class="address-text__title">Пункт выдачи:</span>
+<address class="address-text__address">г. Красноярск, ул. Новосибирская, 42</address>
+</div>
 </div>
 <div class="phone-block">
-<span>Круглосуточный телефон:8-800-707-3234</span>
+<span>Круглосуточный телефон: <a href="tel:88007073234" class="phone-block__phone">8-800-707-3234</a></span>
 </div>
 </div>
 <div class="singin-block">
-<img src="./images/user.svg" alt=""> <a href="#">Авторизация / Регистрация</a> 
+<img src="./images/user.svg" alt="" class="singin-block__img"> <a href="#" class="singin-block__url">Авторизация / Регистрация</a> 
 </div>
 </div>
 <div class="third-block">
 <div class="third-block__border"></div>
 <div class="third-block__body">
 <div class="search-block">
-<span>Более 125 736 товаров в каталоге</span>
-<input type="search" class="third-block__search-text"><button class="third-block__search-button">Искать</button>    
+<span class="search-block__title">Более 125 736 товаров в каталоге</span>
+<div class="third-block__search">
+<input type="search" class="third-block__search-text"><button class="third-block__search-button"></button>    
+</div>
 </div>
 <div class="cart-block">
-<a href="#"><img src="./images/cart.svg" alt=""></a>
+<a href="#" class="header__cart"></a>
+<div class="header__cart-data">
+<span>Оформить заказ:</span>
+<span>10 товаров</span>
+<span>125 674 руб.</span>
 </div>
 </div>
 </div>
-</header></body>
+</div>
+</header><div class="container">
+<ul class="main-page-items">
+<li class="main-page-items__root">
+<img src="../images/catalog/servers.svg" alt="" class="main-page-items__img">Серверное оборудование
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/printers.svg" alt="" class="main-page-items__img">Лазерные принтеры
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/net.svg" alt="" class="main-page-items__img">Серверное оборудование
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/notebooks.svg" alt="" class="main-page-items__img">Лазерные принтеры
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/servers.svg" alt="" class="main-page-items__img">Серверное оборудование
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/printers.svg" alt="" class="main-page-items__img">Лазерные принтеры
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/net.svg" alt="" class="main-page-items__img">Серверное оборудование
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/notebooks.svg" alt="" class="main-page-items__img">Лазерные принтеры
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/servers.svg" alt="" class="main-page-items__img">Серверное оборудование
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/printers.svg" alt="" class="main-page-items__img">Лазерные принтеры
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/net.svg" alt="" class="main-page-items__img">Серверное оборудование
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/notebooks.svg" alt="" class="main-page-items__img">Лазерные принтеры
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/servers.svg" alt="" class="main-page-items__img">Серверное оборудование
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/printers.svg" alt="" class="main-page-items__img">Лазерные принтеры
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/net.svg" alt="" class="main-page-items__img">Серверное оборудование
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+<li class="main-page-items__root">
+<img src="../images/catalog/notebooks.svg" alt="" class="main-page-items__img">Лазерные принтеры
+<ul class="main-page-items__item">
+<li><a href="#" class="main-page-items__subitem">Принтеры Epson</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры HP</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Kyocera</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Samsung</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Canon</a></li>
+<li><a href="#" class="main-page-items__subitem">Принтеры Brother</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<section class="news-main-block">
+<h2 class="hidden">Новости</h2>
+<div class="news-main-items">
+<article class="news-main-items__item">
+<img src="../images/news_item_1.png" alt="" class="news-main-items__img">
+<div class="news-main-items__intro">
+<span class="news-main-items__date">01.12.2019</span>
+<a href="#" class="news-main-items__text">Поиграем на встройке? Обзор и тест компьютера на базе Ryzen 3 3200G</a>
+</div>
+</article>
+<article class="news-main-items__item">
+<img src="../images/news_item_2.png" alt="" class="news-main-items__img">
+<div class="news-main-items__intro">
+<span class="news-main-items__date">01.12.2019</span>
+<a href="#" class="news-main-items__text">Поиграем на встройке? Обзор и тест компьютера на базе Ryzen 3 3200G</a>
+</div>
+</article>
+<article class="news-main-items__item">
+<img src="../images/news_item_3.png" alt="" class="news-main-items__img">
+<div class="news-main-items__intro">
+<span class="news-main-items__date">01.12.2019</span>
+<a href="#" class="news-main-items__text">Поиграем на встройке? Обзор и тест компьютера на базе Ryzen 3 3200G</a>
+</div>
+</article>
+</div>
+<div class="wrapper wrapper--center">
+<a href="#" class="want-more-btn">Хочу больше новостей</a>
+</div>
+</section>
+<section class="why-main-block">
+<h2 class="why-main-block__heading">Почему работать с нами выгодно</h2>
+<p class="why-main-block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque possimus laboriosam blanditiis sit ex, laborum deserunt incidunt esse voluptatibus quam quidem animi tempora, velit eveniet soluta? Tempora, quos minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque possimus laboriosam blanditiis sit ex, laborum deserunt incidunt esse voluptatibus quam quidem animi tempora, velit eveniet soluta? Tempora, quos minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque possimus laboriosam blanditiis sit ex, laborum deserunt incidunt esse voluptatibus quam quidem animi tempora, velit eveniet soluta? Tempora, quos minima.</p>
+<div class="feedback-popup">
+<h2 class="feedback-popup-heading">Остались вопросы? Пишите мы ответим</h2>
+<input type="text" class="feedback-popup-input" placeholder="Ваше имя">
+<input type="text" class="feedback-popup-input" placeholder="Ваше электронный адрес">
+<input type="text" class="feedback-popup-input" placeholder="Ваш телефон">
+<textarea class="feedback-popup-textarea"></textarea>
+<button type="submit" class="feedback-popup-submit">Отправить</button>
+</div>
+</section>
+<section class="advantages-block">
+<h2 class="advantages-block__heading">b2bcorp в цифрах</h2>
+<ul class="advantages-items">
+<li class="advantages-items__item advantages-items__item--goods">Более 125 736 товаров в каталоге</li>
+<li class="advantages-items__item advantages-items__item--orders">Более 10 000 отгруженных заказов</li>
+<li class="advantages-items__item advantages-items__item--places">Более 1 000 пунктов выдачи</li>
+</ul>
+</section><footer class="footer-bottom-block">
+<div class="copyright-footer-block">
+<p class="copyright-footer-block__copyright">© B2BCORP 2010 - 2020</p>
+<p class="copyright-footer-block__firm">ООО "Интернет - технологии"<br>ИНН/КПП 222121122/1233123</p>
+</div>
+<div class="feedback-footer-block">
+<p class="feedback-footer-block__text">Не уверены в выборе?</p>
+<a href="#" class="feedback-footer-block__url">Пишите, подскажем!</a>
+</div>
+<div class="phone-footer-block">
+<p class="phone-footer-block__text">8-800-707-3234 <span class="phone-footer-block__info">Бесплатный звонок по России</span></p>
+<a href="#" class="phone-footer-block__url">Перезвонить? Запросто</a>
+</div>
+</footer></body>
 </html>

@@ -1,0 +1,63 @@
+.footer-bottom-block{
+    background-color: #F6F9FC;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.copyright-footer-block__copyright{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: #8FADC1;
+    font-size: 16px;
+}
+
+.copyright-footer-block__firm{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: #8FADC1;
+    font-size: 10px;
+}
+
+.feedback-footer-block__text{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: #8FADC1;
+}
+
+.feedback-footer-block__url, .phone-footer-block__url{
+    font-family: "Roboto Condensed Bold", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    color: #344B5C;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.feedback-footer-block__url::after, .phone-footer-block__url::after{
+    content: "";
+    width: 43px;
+    height: 10px;
+    background-image: url("../images/arrow.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4px;
+    left: 150px;
+}
+
+.phone-footer-block__url::after{
+    left: 170px;
+}
+
+.phone-footer-block__info{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: #8FADC1;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+.phone-footer-block__text{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: #344B5C;
+    font-weight: 700;
+}

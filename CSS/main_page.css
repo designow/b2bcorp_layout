@@ -1,0 +1,219 @@
+.advantages-block{
+    background: #288BF0;
+    color: #FFFFFF;
+    padding: 40px;
+}
+.advantages-block__heading{
+    color: #FFFFFF;
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 40px;
+}
+.advantages-items{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 90px;
+}
+
+.advantages-items__item{
+    display: flex;
+    font-size: 18px;
+    padding-left: 110px;
+    width: 150px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.advantages-items__item--goods{
+    background-image: url("../images/advantage_1.svg");
+    background-repeat: no-repeat;
+}
+
+.advantages-items__item--orders{
+    background-image: url("../images/advantage_2.svg");
+    background-repeat: no-repeat;
+}
+
+.advantages-items__item--places{
+    background-image: url("../images/advantage_3.svg");
+    background-repeat: no-repeat;
+}
+
+.news-main-items__img{
+    text-align: left;
+}
+
+.news-main-items__item{
+    display: flex;
+}
+
+.news-main-items__intro{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.main-page-items{
+    column-count: 4;
+    column-width: auto;
+    list-style: none;
+    margin-top: 70px;
+}
+
+.main-page-items__root{
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    color: #344B5C;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.main-page-items__item{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.main-page-items__img{
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.main-page-items__subitem{
+    font-family: "Roboto";
+    color: #344B5C;
+    margin-right: 20px;
+    font-size: 14px;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.news-main-block{
+    background-color: #F6F9FC;
+    padding: 40px 20px;
+}
+
+.news-main-items{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.news-main-items__date{
+    color: #9CB7C8;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.news-main-items__text{
+    color: #4C6170;
+    font-size: 14px;
+    max-width: 240px;
+    text-decoration: none;
+}
+
+.why-main-block__heading{
+    color: #9CB7C8;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.why-main-block__text{
+    color: #9CB7C8;
+    max-width: 700px;
+}
+
+.why-main-block{
+    padding: 20px 40px;
+    position: relative;
+}
+
+.want-more-btn{
+    display: inline-block;
+    color: #9CB7C8;
+    font-size: 14px;
+    padding: 15px;
+    border: 1px solid #9CB7C8;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.want-more-btn:hover{
+    color: rgb(123, 157, 179);
+    border: 1px solid rgb(123, 157, 179);
+}
+.feedback-popup-submit{
+    background-color: transparent;
+    color: #9CB7C8;
+    font-size: 14px;
+    padding: 15px 40px;
+    border: 1px solid #9CB7C8;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.feedback-popup{
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #E2EBF5;
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 360px;
+    right: 0;
+    top: 0;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.feedback-popup-heading{
+   font-weight: normal; 
+   text-transform: uppercase;
+   font-size: 16px;
+   text-align: center;
+}
+
+.feedback-popup-input{
+   box-sizing: border-box;
+   height: 30px;
+   border-radius: 50px; 
+   border: 1px solid #9CB7C8;
+   width: 95%;
+   padding: 20px;
+   margin-bottom: 20px;
+   
+}
+  
+.feedback-popup-textarea{
+   box-sizing: border-box;
+   border-radius: 10px; 
+   border: 1px solid #9CB7C8;
+   width: 95%;
+   padding: 10px;
+   height: 100px;
+}
+
+.feedback-popup-input::placeholder {
+  color: #9CB7C8;
+}
+
+.wrapper{
+    
+}
+
+.wrapper--center{
+    text-align: center;
+}
+

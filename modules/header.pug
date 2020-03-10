@@ -1,39 +1,50 @@
 <header class="header">
 <div class="header__wrap">
-<a href="#" class="header__logo"><img src="./images/menu.svg" alt="Компания b2bCorp"></a>
+<a href="#" class="header__menu"></a>
 <div class="first-header-block">
-<span>Ваш город: <a href="#">Красноярск</a></span>
+<span class="city-select">Ваш город: <a href="#" class="city-select__url">Красноярск</a></span>
 <div class="logotype-block">
-<a href="#"><img src="./images/b2bcorp.svg" alt=""></a>
-<span>Автоматизированный сервис продаж юридическим лицам</span>
+<a href="#"  class="header__logo"><img src="./images/b2bcorp.svg" alt=""></a>
+<span class="header_slogan">Автоматизированный сервис продаж юридическим лицам</span>
 </div>
 <div class="catalog-button-block">
-<button>Каталог товаров</button>
+    <a href="#" class="catalog-button">Каталог товаров</a>
 </div>
 </div>
 <div class="second-header-block">
     <div class="address-block">
-    <img src="./images/shelfs.svg" alt="">
-    <span>Пункт выдачи:</span>
-    <p>г. Красноярск, ул. Новосибирская, 42</p>
+        <div class="address-image">
+            <img src="./images/shelfs.svg" alt="">
+        </div>
+        <div class="address-text">
+            <span class="address-text__title">Пункт выдачи:</span>
+            <address class="address-text__address">г. Красноярск, ул. Новосибирская, 42</address>
+        </div>
     </div>
     <div class="phone-block">
-         <span>Круглосуточный телефон:8-800-707-3234</span>
+         <span>Круглосуточный телефон: <a href="tel:88007073234" class="phone-block__phone">8-800-707-3234</a></span>
     </div>
 </div>
 <div class="singin-block">
-<img src="./images/user.svg" alt=""> <a href="#">Авторизация / Регистрация</a> 
+<img src="./images/user.svg" alt="" class="singin-block__img"> <a href="#" class="singin-block__url">Авторизация / Регистрация</a> 
 </div>
 </div>
 <div class="third-block">
 <div class="third-block__border"></div>
 <div class="third-block__body">
 <div class="search-block">
-<span>Более 125 736 товаров в каталоге</span>
-<input type="search" class="third-block__search-text"><button class="third-block__search-button">Искать</button>    
+<span class="search-block__title">Более 125 736 товаров в каталоге</span>
+<div class="third-block__search">
+    <input type="search" class="third-block__search-text"><button class="third-block__search-button"></button>    
+</div>
 </div>
 <div class="cart-block">
-<a href="#"><img src="./images/cart.svg" alt=""></a>
+<a href="#" class="header__cart"></a>
+<div class="header__cart-data">
+    <span>Оформить заказ:</span>
+    <span>10 товаров</span>
+    <span>125 674 руб.</span>
+</div>
 </div>
 </div>
 </div>
