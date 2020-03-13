@@ -183,6 +183,10 @@
    color: #8FADC1;
 }
 
+.city-select__url:hover{
+   color: #288BF0;
+}
+
 .address-block{
    display: flex;
 }

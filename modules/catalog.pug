@@ -1,38 +1,51 @@
 <div class="container">
 <div class="wrapper">
 <div class="aside">
-<ul>
-<li>Каталог</li>
-<li>Поиск по параметрам</li>
+<ul class="aside-header">
+    <li class="aside-header__title aside-header__title--active">Каталог</li>
+    <li class="aside-header__title">Поиск по параметрам</li>
 </ul>
 <div class="catalog">
-<ul>
-    <li>Комплектующие (6470)
-        <ul>
-            <li>ACCORD (19)</li>
-            <li>AeroCool (72)</li>
-            <li>BaseTech (9)</li>
-            <li>be quite! (12)</li>
-            <li>ACCORD (19)</li>
-            <li>ACCORD (19)</li>
-            <li>AeroCool (72)</li>
-            <li>BaseTech (9)</li>
-            <li>be quite! (12)</li>
-            <li>ACCORD (19)</li>
-        </ul>
+<ul class="catalog-items">
+    <li class="catalog-items__item"><a href="#" class="catalog-items__url">Комплектующие (6470)</a>
+    <ul class="catalog-items">
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">Корпуса (19)</a>
+                <ul class="catalog-items">
+                    <li class="catalog-items__item"><a href="#" class="catalog-items__url">ACCORD (19)</a></li>
+                    <li class="catalog-items__item"><a href="#" class="catalog-items__url">AeroCool (72)</a></li>
+                    <li class="catalog-items__item"><a href="#" class="catalog-items__url">BaseTech (9)</a></li>
+                    <li class="catalog-items__item"><a href="#" class="catalog-items__url">be quite! (12)</a></li>
+                    <li class="catalog-items__item"><a href="#" class="catalog-items__url">ACCORD (19)</a></li>
+                    <li class="catalog-items__item"><a href="#" class="catalog-items__url">ACCORD (19)</a></li>
+                    <li class="catalog-items__item"><a href="#" class="catalog-items__url">AeroCool (72)</a></li>
+                    <li class="catalog-items__item"><a href="#" class="catalog-items__url">BaseTech (9)</a></li>
+                    <li class="catalog-items__item"><a href="#" class="catalog-items__url">be quite! (12)</a></li>
+                    <li class="catalog-items__item"><a href="#" class="catalog-items__url">ACCORD (19)</a></li>
+                </ul>
+            </li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">AeroCool (72)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">BaseTech (9)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">be quite! (12)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">ACCORD (19)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">ACCORD (19)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">AeroCool (72)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">BaseTech (9)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">be quite! (12)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">ACCORD (19)</a></li>
+    </ul>
     </li>
-    <li>Компьютеры (647)
-        <ul>
-            <li>ACCORD (19)</li>
-            <li>AeroCool (72)</li>
-            <li>BaseTech (9)</li>
-            <li>be quite! (12)</li>
-            <li>ACCORD (19)</li>
-            <li>ACCORD (19)</li>
-            <li>AeroCool (72)</li>
-            <li>BaseTech (9)</li>
-            <li>be quite! (12)</li>
-            <li>ACCORD (19)</li>
+    <li class="catalog-items__item"><a href="#" class="catalog-items__url">Компьютеры (647)</a>
+        <ul class="catalog-items">
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">ACCORD (19)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">AeroCool (72)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">BaseTech (9)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">be quite! (12)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">ACCORD (19)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">ACCORD (19)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">AeroCool (72)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">BaseTech (9)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">be quite! (12)</a></li>
+            <li class="catalog-items__item"><a href="#" class="catalog-items__url">ACCORD (19)</a></li>
         </ul>
     </li>
 </ul>
@@ -40,54 +53,187 @@
 </div>   
 <div class="pricelist">
     <ul class="breadcrumbs">
-        <li>Главная</li>
-        <li>Комплектующие</li>
-        <li>Корпуса</li>
+        <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__url">Главная</a></li>
+        <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__url">Комплектующие</a></li>
+        <li class="breadcrumbs__item breadcrumbs__item--last"><a href="#" class="breadcrumbs__url">Корпуса</a></li>
     </ul>
     <h1>Корпуса</h1>
     <div class="pricelist-sorting">
-        <span>Сортировка:</span>
-        <a>цена</a>
-        <a>наличие + цена</a>
-        <a>наличие + наименование</a>
-        <a>наименование</a>
+        <span class="pricelist-sorting__title">Сортировка:</span>
+        <a class="pricelist-sorting__url" href="#">цена</a>
+        <a class="pricelist-sorting__url pricelist-sorting__url--active" href="#">наличие + цена</a>
+        <a class="pricelist-sorting__url" href="#">наличие + наименование</a>
+        <a class="pricelist-sorting__url" href="#">наименование</a>
     </div>
     <div class="pages-block">
     <ul class="pages">
-        <li><a href="#" class="pages__page">1</a></li>
-        <li><a href="#" class="pages__page">2</a></li>
-        <li><a href="#" class="pages__page">3</a></li>
-        <li>...</li>
-        <li><a href="#" class="pages__page">6</a></li>
+        <li class="pages__page"><a href="#" class="pages__url pages__url--active">1</a></li>
+        <li class="pages__page"><a href="#" class="pages__url">2</a></li>
+        <li class="pages__page"><a href="#" class="pages__url">3</a></li>
+        <li class="pages__page">...</li>
+        <li class="pages__page"><a href="#" class="pages__url">6</a></li>
     </ul>
-    <span>Показать:</span>
-    <ul>
-        <li>25</li>
-        <li>50</li>
-        <li>100</li>
-        <li>Все</li>
-    </ul>
+    <div class="items-on-page-block">
+    <span class="items-on-page__info">Показать:</span>
+        <ul class="items-on-page">
+            <li class="items-on-page__item">25</li>
+            <li class="items-on-page__item">50</li>
+            <li class="items-on-page__item">100</li>
+            <li class="items-on-page__item items-on-page__item--last">Все</li>
+        </ul>
+    </div>
     </div>
     <div class="products-list">
-        <div class="products-list__item">
-            <div class="product-list__img-block">
-                <img src="">
+        <div class="product-item">
+            <div class="product-item__img-block">
+                <a href="#"><img src="./images/product.png" alt=""></a>
             </div>
-            <div class="product-list__name-block">
-            <span class="product-list__name">Блоки питания 300W TFX Seasonic 300TGS, 80+ Gold (SSP-300TGS)</span>
-                <div class="product-list__articul-block">
-                    <div class="product-list__check">
-                        <input type="checkbox"> сравнить 
+            <div class="product-item__name-block">
+            <a class="product-item__name" href="#">Блоки питания 300W TFX Seasonic 300TGS, 80+ Gold (SSP-300TGS)</a>
+                <div class="product-item__articul-block">
+                    <div class="product-item__check">
+                        <input type="checkbox" id="product123"> <label for="product123" class="product-item__text">сравнить</label>
                     </div>
-                    <div class="product-list__articul">
+                    <div class="product-item__articul">
                         <span>артикул: 538799 / код: SSP-300TGS</span>
                     </div>
                 </div>
             </div>
-            <div class="product-list__price-block">
+            <div class="product-item__price-block">
                 <span>4 500 руб.</span>
             </div>
+            <div class="product-item__cart-block">
+                <button class="product-item__btn">Купить</button>
+            </div>
         </div>
+        <div class="product-item">
+            <div class="product-item__img-block">
+                <a href="#"><img src="./images/product.png" alt=""></a>
+            </div>
+            <div class="product-item__name-block">
+            <a class="product-item__name" href="#">Блоки питания 300W TFX Seasonic 300TGS, 80+ Gold (SSP-300TGS)</a>
+                <div class="product-item__articul-block">
+                    <div class="product-item__check">
+                        <input type="checkbox" id="product123"> <label for="product123" class="product-item__text">сравнить</label>
+                    </div>
+                    <div class="product-item__articul">
+                        <span>артикул: 538799 / код: SSP-300TGS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-item__price-block">
+                <span>1 450 500 руб.</span>
+            </div>
+            <div class="product-item__cart-block">
+                <button class="product-item__btn">Купить</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="product-item__img-block">
+                <a href="#"><img src="./images/product.png" alt=""></a>
+            </div>
+            <div class="product-item__name-block">
+            <a class="product-item__name" href="#">Блоки питания 300W TFX Seasonic 300TGS, 80+ Gold (SSP-300TGS)</a>
+                <div class="product-item__articul-block">
+                    <div class="product-item__check">
+                        <input type="checkbox" id="product123"> <label for="product123" class="product-item__text">сравнить</label>
+                    </div>
+                    <div class="product-item__articul">
+                        <span>артикул: 538799 / код: SSP-300TGS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-item__price-block">
+                <span>145 500 руб.</span>
+            </div>
+            <div class="product-item__cart-block">
+                <button class="product-item__btn">Купить</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="product-item__img-block">
+                <a href="#"><img src="./images/product.png" alt=""></a>
+            </div>
+            <div class="product-item__name-block">
+            <a class="product-item__name" href="#">Блоки питания 300W TFX Seasonic 300TGS, 80+ Gold (SSP-300TGS)</a>
+                <div class="product-item__articul-block">
+                    <div class="product-item__check">
+                        <input type="checkbox" id="product123"> <label for="product123" class="product-item__text">сравнить</label>
+                    </div>
+                    <div class="product-item__articul">
+                        <span>артикул: 538799 / код: SSP-300TGS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-item__price-block">
+                <span>4 500 руб.</span>
+            </div>
+            <div class="product-item__cart-block">
+                <button class="product-item__btn">Купить</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="product-item__img-block">
+                <a href="#"><img src="./images/product.png" alt=""></a>
+            </div>
+            <div class="product-item__name-block">
+            <a class="product-item__name" href="#">Блоки питания 300W TFX Seasonic 300TGS, 80+ Gold (SSP-300TGS)</a>
+                <div class="product-item__articul-block">
+                    <div class="product-item__check">
+                        <input type="checkbox" id="product123"> <label for="product123" class="product-item__text">сравнить</label>
+                    </div>
+                    <div class="product-item__articul">
+                        <span>артикул: 538799 / код: SSP-300TGS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-item__price-block">
+                <span>4 500 руб.</span>
+            </div>
+            <div class="product-item__cart-block">
+                <button class="product-item__btn">Купить</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="product-item__img-block">
+                <a href="#"><img src="./images/product.png" alt=""></a>
+            </div>
+            <div class="product-item__name-block">
+            <a class="product-item__name" href="#">Блоки питания 300W TFX Seasonic 300TGS, 80+ Gold (SSP-300TGS)</a>
+                <div class="product-item__articul-block">
+                    <div class="product-item__check">
+                        <input type="checkbox" id="product123"> <label for="product123" class="product-item__text">сравнить</label>
+                    </div>
+                    <div class="product-item__articul">
+                        <span>артикул: 538799 / код: SSP-300TGS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-item__price-block">
+                <span>4 500 руб.</span>
+            </div>
+            <div class="product-item__cart-block">
+                <button class="product-item__btn">Купить</button>
+            </div>
+        </div>
+    </div>
+    <div class="pages-block">
+    <ul class="pages">
+        <li class="pages__page"><a href="#" class="pages__url pages__url--active">1</a></li>
+        <li class="pages__page"><a href="#" class="pages__url">2</a></li>
+        <li class="pages__page"><a href="#" class="pages__url">3</a></li>
+        <li class="pages__page">...</li>
+        <li class="pages__page"><a href="#" class="pages__url">6</a></li>
+    </ul>
+    <div class="items-on-page-block">
+    <span class="items-on-page__info">Показать:</span>
+        <ul class="items-on-page">
+            <li class="items-on-page__item">25</li>
+            <li class="items-on-page__item">50</li>
+            <li class="items-on-page__item">100</li>
+            <li class="items-on-page__item items-on-page__item--last">Все</li>
+        </ul>
+    </div>
     </div>
 </div>
 </div>
